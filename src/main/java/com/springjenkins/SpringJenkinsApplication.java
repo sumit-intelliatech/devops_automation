@@ -14,7 +14,7 @@ public class SpringJenkinsApplication {
 
 
 	@GetMapping("/ping")
-	public String message() {
+	public  message() {
 		System.out.println("Now i have done some changes here");
 		System.out.println("Now i create the pipeline build process");
 		System.out.println("Now i create the pipeline build process");
